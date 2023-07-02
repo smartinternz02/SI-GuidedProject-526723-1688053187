@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url("background_image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.options a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.content {
+  margin: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  transition: box-shadow 0.3s;
+}
+
+.button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.about-info p {
+  flex: 1;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.about-info img {
+  max-width: 300px;
+  margin-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+form input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  transition: box-shadow 0.3s;
+}
+
+form button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.dialog-box {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.dialog-box p {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.dialog-box button {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  transition: box-shadow 0.3s;
+}
+
+.dialog-box button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.about-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.about-info p {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.about-info img {
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+body,
+p,
+label,
+input,
+button {
+  color: #fff;
+}
+
+body {
+  background-color: #0d47a1;
+}
